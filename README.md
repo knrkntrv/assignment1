@@ -23,6 +23,7 @@ Method: POST
 		"effective_date":"2020-09-13T01:14:25.000+0000"
 	}
 2) Read 
+
 	http://localhost:8080/organisation/employee/skill
 		Headers :
 			Key : Content-Type 
@@ -30,6 +31,7 @@ Method: POST
 
 		Method: GET
 3) Read (getBySkillName)
+
 	http://localhost:8080/organisation/employee/skill/{skillName}
 	http://localhost:8080/organisation/employee/skill/JAVA
 	Headers :
@@ -38,6 +40,7 @@ Method: POST
 
 		Method: GET
 4) Delete the record
+
 	http://localhost:8080/organisation/employee/{id}
 	http://localhost:8080/organisation/employee/105
 	Headers :
@@ -46,6 +49,7 @@ Method: POST
 
 		Method: DELETE
 5) Update the record
+
 	http://localhost:8080/organisation/employee/{id}
 	http://localhost:8080/organisation/employee/105
 	Headers :
